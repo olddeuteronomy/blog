@@ -20,8 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Various notes and thoughts related to Emacs.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-#github_username:  jekyll
+disqus.shortname: olddeuteronomy
 timezone: Europe/Moscow
 slogan: Emacs has Tetris and Vim does not. The debate ought to end here.<br />
   &mdash;  Matthew Haffner, December 7, 2016
