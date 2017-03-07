@@ -29,6 +29,13 @@ the most out of Jekyll. File all bugs/feature requests
 at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can
 ask them on [Jekyll Talk][jekyll-talk].
 
+Parameters:
+
+ - site.disqus.shortname: {{ site.disqus.shortname }}
+ - post.comments: {{ post.comments }}
+ - page.comments: {{ page.comments }}
+ - jekyll.environment: {{ jekyll.environment }}
+
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
