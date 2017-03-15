@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "ibuffer"
+date:   2017-03-15 13:59:46 +0300
+comments: true
+tags: emacs ibuffer
+---
+
+[Marcin Borkowski](http://mbork.pl) has published a
+short [article](http://mbork.pl/2017-03-13_Ibuffer) on the use of the
+`ibuffer` command. Definitely worth reading particularly if you are
+using a lot of buffers.
