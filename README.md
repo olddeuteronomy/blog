@@ -1,1 +1,1 @@
-# blog
+# An Emacser's Miscellany
