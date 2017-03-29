@@ -40,7 +40,7 @@ I bound this function to the `C-f6` key sequence (Ctrl+F6):
 Now I can select a region in a buffer, press `C-f6` and replace the
 selection with its decimal value, so `30@15'54"` becomes `30.265`.
 
-The inverse function (bound to `S-f6` or Ctrl+F6) replaces a floating
+The inverse function (bound to `S-f6` or Shift+F6) replaces a floating
 point with the DMS string:
 
 {% highlight elisp %}
