@@ -37,7 +37,10 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
+        <ul class="contact-list">
+        <li>{{ site.description | escape }}</li>
+        <li>&copy; {{ site.time | date: "%Y" }} Olddeuteronomy Emacs Cat</li>
+        </ul>
       </div>
     </div>
 

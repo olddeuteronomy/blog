@@ -14,3 +14,5 @@ articles in LaTeX.
 
 Expect some typos and spelling errors. Please be patient, English is
 not my mother language.
+
+![Emacs]({{site.imgurl}}/its-cover.png){:class="img-responsive"}
