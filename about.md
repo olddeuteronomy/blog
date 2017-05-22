@@ -15,4 +15,4 @@ articles in LaTeX.
 Expect some typos and spelling errors. Please be patient, English is
 not my mother language.
 
-![Emacs]({{site.url}}/assets/img/its-cover.png){:class="img-responsive"}
+![Emacs]({{ "/" | relative_url}}/assets/img/its-cover.png){:class="img-responsive"}
