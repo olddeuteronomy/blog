@@ -2,7 +2,7 @@
 
   <div class="wrapper">
     {% if page.use_banner %}
-    <img class="img-responsive" src="{{site.url}}/assets/img/{{site.banner}}" alt="Space Cadet Keyboard">
+    <img class="img-responsive" src="{{ "/" | relative_url}}/assets/img/{{site.banner}}" alt="Space Cadet Keyboard">
     {% endif %}
 
     <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
