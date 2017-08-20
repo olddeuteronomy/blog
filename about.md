@@ -12,4 +12,4 @@ A second attempt was in 2011, 6 years ago. Since then, I use Emacs for
 almost everything, from C++ or Python coding to twittering and writing
 articles in LaTeX.
 
-![Emacs]({{relative_url}}/assets/img/its-cover.png){:class="img-responsive"}
+![Emacs]({{site.imgurl}}/its-cover.png){:class="img-responsive"}
