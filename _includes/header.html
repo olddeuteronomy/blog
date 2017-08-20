@@ -2,10 +2,10 @@
 
   <div class="wrapper">
     {% if page.use_banner %}
-    <img class="img-responsive" src="{{ "/" | relative_url}}/assets/img/{{site.banner}}" alt="Space Cadet Keyboard">
+    <img class="img-responsive" src="{{relative_url}}/assets/img/{{site.banner}}" alt="Space Cadet Keyboard">
     {% endif %}
 
-    <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+    <a class="site-title" href="{{relative_url}}">{{ site.title | escape }}</a>
 
     <nav class="site-nav">
       <span class="menu-icon" onclick="void(0)">
