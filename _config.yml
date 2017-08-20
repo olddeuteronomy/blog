@@ -19,7 +19,7 @@ email: (rot13 "byq.qrhgrebabzl@bhgybbx.pbz")
 twitter_username: ODeuteronomy
 description: > # this means to ignore newlines until "baseurl:"
   Various notes and thoughts related to Emacs.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 disqus:
     shortname: olddeuteronomy
