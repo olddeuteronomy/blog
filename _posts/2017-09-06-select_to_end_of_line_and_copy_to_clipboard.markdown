@@ -30,9 +30,9 @@ A slightly modified version of this functions allows you to *copy* the rest-of-l
 
 Please note that the region has lost highlighting in this case.
 
-I decided to have both versions and bound them to `C-c w` and `C-e` respectively (it seems `C-e` is not bound to any command by default).
+I decided to have both versions and bound them to `C-c e` and `C-c w` respectively.
 
 {% highlight elisp %}
-(global-set-key (kbd "C-c w") #'mark-from-point-to-end-of-line)
-(global-set-key (kbd "C-e") #'mark-from-point-to-end-of-line-and-copy)
+(global-set-key (kbd "C-c e") #'mark-from-point-to-end-of-line)
+(global-set-key (kbd "C-c w") #'mark-from-point-to-end-of-line-and-copy)
 {% endhighlight %}
