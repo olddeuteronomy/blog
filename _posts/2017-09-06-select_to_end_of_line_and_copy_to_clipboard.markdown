@@ -5,7 +5,7 @@ comments: true
 tags: emacs elisp
 ---
 
-As we know, `(kill-line)` command (bound to `C-k` by default) kills rest of line, beginning from the current point (cursor position). However I was not able to find a command in the default Emacs command set which *selects* from the current point to end of line (certainly you can do that with `C-SPC C-e`, but I'd like to save on keypresses). After some searching, I found a short and elegant solution at [StackOverflow](https://emacs.stackexchange.com/questions/10254/select-text-to-end-of-line-without-moving-point):
+As we know, `(kill-line)` command (bound to `C-k` by default) kills rest of line, beginning from the current point (cursor position). However I was not able to find a command in the default Emacs command set which *selects* from the current point to end of line (certainly you can do that with `C-SPC C-e`, but I'd like to save on key-presses). After some searching, I found a short and elegant solution at [StackOverflow](https://emacs.stackexchange.com/questions/10254/select-text-to-end-of-line-without-moving-point):
 
 {% highlight elisp %}
 (defun mark-from-point-to-end-of-line ()
@@ -17,7 +17,7 @@ As we know, `(kill-line)` command (bound to `C-k` by default) kills rest of line
 
 This function keeps the selection and you can now either copy or kill it or even expand or shrink the region using cursor movement keys.
 
-A slightly modified version of this functions allows you to *copy* the rest-of-line region to the clipboard:
+A slightly modified version of this function allows you to *copy* the rest-of-line region to the clipboard:
 
 {% highlight elisp %}
 (defun mark-from-point-to-end-of-line-and-copy ()
